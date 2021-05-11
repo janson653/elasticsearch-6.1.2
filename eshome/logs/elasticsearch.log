@@ -1,0 +1,256 @@
+[2021-05-11T15:28:03,735][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:28:04,602][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:28:04,603][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:28:04,605][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:28:04,606][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[13272], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:28:04,606][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:28:04,606][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:28:09,990][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:28:09,991][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:28:09,991][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:28:10,103][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:28:12,036][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:28:12,429][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:28:12,429][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:28:14,596][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:28:14,605][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:28:17,655][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{ceA7CxofSoOrU28VsJUphQ}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:28:17,660][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{ceA7CxofSoOrU28VsJUphQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{ceA7CxofSoOrU28VsJUphQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:28:17,689][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:28:18,792][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:28:18,792][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:32:24,717][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:32:24,811][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:32:24,812][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:32:24,813][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:32:24,813][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[17416], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:32:24,814][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:32:24,814][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:32:30,345][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:32:30,345][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:32:30,345][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:32:30,345][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:32:30,346][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:32:30,347][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:32:30,472][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:32:32,417][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:32:33,610][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:32:33,610][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:32:35,815][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:32:35,825][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:32:38,875][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{AmqTz1h8SueU5yBMTuJckw}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:32:38,880][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{AmqTz1h8SueU5yBMTuJckw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{AmqTz1h8SueU5yBMTuJckw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:32:38,907][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:32:40,015][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:32:40,015][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:35:32,379][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:35:32,469][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:35:32,469][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:35:32,471][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:35:32,471][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[17268], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:35:32,471][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:35:32,471][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:35:37,667][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:35:37,668][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:35:37,778][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:35:39,623][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:35:40,797][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:35:40,797][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:35:42,901][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:35:42,910][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:35:45,959][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{aSTIeWuXS7W0KguEDAn9Dw}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:35:45,963][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{aSTIeWuXS7W0KguEDAn9Dw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{aSTIeWuXS7W0KguEDAn9Dw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:35:45,990][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:35:47,091][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:35:47,091][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:37:04,825][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:37:04,924][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:37:04,924][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:37:04,926][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:37:04,926][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[2736], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:37:04,926][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:37:04,926][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:37:10,155][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:37:10,156][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:37:10,157][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:37:10,271][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:37:12,162][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:37:13,318][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:37:13,318][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:37:15,319][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:37:15,329][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:37:18,377][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{DkP32tkUT2ia9wvxzht2sg}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:37:18,381][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{DkP32tkUT2ia9wvxzht2sg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{DkP32tkUT2ia9wvxzht2sg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:37:18,407][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:37:19,482][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:37:19,482][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:38:36,639][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:38:36,730][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:38:36,730][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:38:36,732][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:38:36,732][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[20476], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:38:36,733][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:38:36,733][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:38:42,068][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:38:42,068][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:38:42,068][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:38:42,068][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:38:42,068][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:38:42,069][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:38:42,176][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:38:44,059][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:38:45,234][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:38:45,234][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:38:47,246][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:38:47,255][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:38:50,297][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{J3S1tmg9QhmbPgrotXeZMA}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:38:50,301][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{J3S1tmg9QhmbPgrotXeZMA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{J3S1tmg9QhmbPgrotXeZMA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:38:50,329][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:38:51,407][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:38:51,407][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:39:20,814][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:39:20,906][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:39:20,906][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:39:20,908][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:39:20,908][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[8720], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:39:20,908][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:39:20,908][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:39:26,198][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:39:26,199][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:39:26,313][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:39:28,252][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:39:29,513][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:39:29,513][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:39:31,542][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:39:31,553][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:39:34,608][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{SMt8HRWTT3a2KgQDxKHWjQ}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:39:34,613][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{SMt8HRWTT3a2KgQDxKHWjQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{SMt8HRWTT3a2KgQDxKHWjQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:39:34,641][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:39:35,757][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:39:35,757][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:41:25,516][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:41:25,606][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:41:25,607][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:41:25,609][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:41:25,609][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[5532], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:41:25,609][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:41:25,609][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:41:30,912][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:41:30,912][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:41:30,913][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:41:30,914][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:41:31,022][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:41:32,864][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:41:34,016][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:41:34,016][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:41:36,022][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:41:36,031][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:41:39,080][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{9d5koy6QSOmYM5bjp14gAA}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:41:39,086][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{9d5koy6QSOmYM5bjp14gAA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{9d5koy6QSOmYM5bjp14gAA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:41:39,114][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:41:40,226][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:41:40,226][INFO ][o.e.n.Node               ] [NzO77Du] started
+[2021-05-11T15:42:37,322][INFO ][o.e.n.Node               ] [] initializing ...
+[2021-05-11T15:42:37,414][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] using [1] data paths, mounts [[DATA (D:)]], net usable_space [60.7gb], net total_space [210.6gb], types [NTFS]
+[2021-05-11T15:42:37,414][INFO ][o.e.e.NodeEnvironment    ] [NzO77Du] heap size [8.7gb], compressed ordinary object pointers [true]
+[2021-05-11T15:42:37,415][INFO ][o.e.n.Node               ] node name [NzO77Du] derived from node ID [NzO77Du8TD2r6pULU5BGlw]; set [node.name] to override
+[2021-05-11T15:42:37,416][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[17020], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Amazon.com Inc./OpenJDK 64-Bit Server VM/1.8.0_292/25.292-b10]
+[2021-05-11T15:42:37,416][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=eshome/config, -Des.path.home=eshome, -Djava.security.policy=eshome/config/elasticsearch.policy, -Dlog4j2.disable.jms=true, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2021-05-11T15:42:37,416][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2021-05-11T15:42:42,875][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [aggs-matrix-stats]
+[2021-05-11T15:42:42,875][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [analysis-common]
+[2021-05-11T15:42:42,875][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [ingest-common]
+[2021-05-11T15:42:42,875][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-expression]
+[2021-05-11T15:42:42,875][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-mustache]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [lang-painless]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [mapper-extras]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [parent-join]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [percolator]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [reindex]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [repository-url]
+[2021-05-11T15:42:42,876][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [transport-netty4]
+[2021-05-11T15:42:42,877][INFO ][o.e.p.PluginsService     ] [NzO77Du] loaded module [tribe]
+[2021-05-11T15:42:42,877][INFO ][o.e.p.PluginsService     ] [NzO77Du] no plugins loaded
+[2021-05-11T15:42:42,987][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2021-05-11T15:42:44,901][INFO ][o.e.d.DiscoveryModule    ] [NzO77Du] using discovery type [zen]
+[2021-05-11T15:42:46,070][INFO ][o.e.n.Node               ] initialized
+[2021-05-11T15:42:46,070][INFO ][o.e.n.Node               ] [NzO77Du] starting ...
+[2021-05-11T15:42:48,001][INFO ][o.e.t.TransportService   ] [NzO77Du] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-05-11T15:42:48,010][WARN ][o.e.b.BootstrapChecks    ] [NzO77Du] initial heap size [662700032] not equal to maximum heap size [10582228992]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2021-05-11T15:42:51,050][INFO ][o.e.c.s.MasterService    ] [NzO77Du] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{j7sSv1qESlGTcgiw0ci0OA}{127.0.0.1}{127.0.0.1:9300}
+[2021-05-11T15:42:51,054][INFO ][o.e.c.s.ClusterApplierService] [NzO77Du] new_master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{j7sSv1qESlGTcgiw0ci0OA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {NzO77Du}{NzO77Du8TD2r6pULU5BGlw}{j7sSv1qESlGTcgiw0ci0OA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2021-05-11T15:42:51,081][INFO ][o.e.g.GatewayService     ] [NzO77Du] recovered [0] indices into cluster_state
+[2021-05-11T15:42:52,157][INFO ][o.e.h.n.Netty4HttpServerTransport] [NzO77Du] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-05-11T15:42:52,158][INFO ][o.e.n.Node               ] [NzO77Du] started
