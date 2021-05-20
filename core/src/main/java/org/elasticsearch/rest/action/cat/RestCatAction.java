@@ -48,6 +48,7 @@ public class RestCatAction extends BaseRestHandler {
         for (AbstractCatAction catAction : catActions) {
             catAction.documentation(sb);
         }
+        sb.append("jansonapi");
         HELP = sb.toString();
     }
 

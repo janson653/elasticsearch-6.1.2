@@ -212,35 +212,7 @@ import org.elasticsearch.rest.RestController;
 import org.elasticsearch.rest.RestHandler;
 import org.elasticsearch.rest.action.RestFieldCapabilitiesAction;
 import org.elasticsearch.rest.action.RestMainAction;
-import org.elasticsearch.rest.action.admin.cluster.RestCancelTasksAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterAllocationExplainAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterGetSettingsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterHealthAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterRerouteAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterSearchShardsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterStateAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterStatsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestClusterUpdateSettingsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestCreateSnapshotAction;
-import org.elasticsearch.rest.action.admin.cluster.RestDeleteRepositoryAction;
-import org.elasticsearch.rest.action.admin.cluster.RestDeleteSnapshotAction;
-import org.elasticsearch.rest.action.admin.cluster.RestDeleteStoredScriptAction;
-import org.elasticsearch.rest.action.admin.cluster.RestGetRepositoriesAction;
-import org.elasticsearch.rest.action.admin.cluster.RestGetSnapshotsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestGetStoredScriptAction;
-import org.elasticsearch.rest.action.admin.cluster.RestGetTaskAction;
-import org.elasticsearch.rest.action.admin.cluster.RestListTasksAction;
-import org.elasticsearch.rest.action.admin.cluster.RestNodesHotThreadsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestNodesInfoAction;
-import org.elasticsearch.rest.action.admin.cluster.RestNodesStatsAction;
-import org.elasticsearch.rest.action.admin.cluster.RestNodesUsageAction;
-import org.elasticsearch.rest.action.admin.cluster.RestPendingClusterTasksAction;
-import org.elasticsearch.rest.action.admin.cluster.RestPutRepositoryAction;
-import org.elasticsearch.rest.action.admin.cluster.RestPutStoredScriptAction;
-import org.elasticsearch.rest.action.admin.cluster.RestRemoteClusterInfoAction;
-import org.elasticsearch.rest.action.admin.cluster.RestRestoreSnapshotAction;
-import org.elasticsearch.rest.action.admin.cluster.RestSnapshotsStatusAction;
-import org.elasticsearch.rest.action.admin.cluster.RestVerifyRepositoryAction;
+import org.elasticsearch.rest.action.admin.cluster.*;
 import org.elasticsearch.rest.action.admin.indices.RestAnalyzeAction;
 import org.elasticsearch.rest.action.admin.indices.RestClearIndicesCacheAction;
 import org.elasticsearch.rest.action.admin.indices.RestCloseIndexAction;
@@ -612,6 +584,8 @@ public class ActionModule extends AbstractModule {
         // Tasks API
         registerHandler.accept(new RestListTasksAction(settings, restController, nodesInCluster));
         registerHandler.accept(new RestGetTaskAction(settings, restController));
+        // todo test
+        registerHandler.accept(new RestJansonApiAction(settings, restController));
         registerHandler.accept(new RestCancelTasksAction(settings, restController, nodesInCluster));
 
         // Ingest API

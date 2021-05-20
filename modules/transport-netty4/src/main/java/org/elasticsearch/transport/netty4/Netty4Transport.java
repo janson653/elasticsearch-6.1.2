@@ -130,11 +130,13 @@ public class Netty4Transport extends TcpTransport {
     protected void doStart() {
         boolean success = false;
         try {
+            // 启动客户端
             bootstrap = createBootstrap();
             if (NetworkService.NETWORK_SERVER.get(settings)) {
                 final Netty4OpenChannelsHandler openChannels = new Netty4OpenChannelsHandler(logger);
                 this.serverOpenChannels = openChannels;
                 for (ProfileSettings profileSettings : profileSettings) {
+                    // 启动服务器端
                     createServerBootstrap(profileSettings);
                     bindServer(profileSettings);
                 }
